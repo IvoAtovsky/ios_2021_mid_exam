@@ -16,6 +16,7 @@
 		56BF2F352788A49B00EA9292 /* CListViewControer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF2F342788A49B00EA9292 /* CListViewControer.swift */; };
 		56BF2F372788A53300EA9292 /* CalendarViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF2F362788A53300EA9292 /* CalendarViewControler.swift */; };
 		56BF2F392788A8D400EA9292 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF2F382788A8D400EA9292 /* TableCell.swift */; };
+		56BF2F3B2788B43A00EA9292 /* ColectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF2F3A2788B43A00EA9292 /* ColectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		56BF2F342788A49B00EA9292 /* CListViewControer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CListViewControer.swift; sourceTree = "<group>"; };
 		56BF2F362788A53300EA9292 /* CalendarViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewControler.swift; sourceTree = "<group>"; };
 		56BF2F382788A8D400EA9292 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		56BF2F3A2788B43A00EA9292 /* ColectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				56BF2F342788A49B00EA9292 /* CListViewControer.swift */,
 				56BF2F362788A53300EA9292 /* CalendarViewControler.swift */,
 				56BF2F382788A8D400EA9292 /* TableCell.swift */,
+				56BF2F3A2788B43A00EA9292 /* ColectionViewCell.swift */,
 			);
 			path = Exam;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				56BF2F332788A3A900EA9292 /* Model.swift in Sources */,
 				56BF2F352788A49B00EA9292 /* CListViewControer.swift in Sources */,
 				56BF2F372788A53300EA9292 /* CalendarViewControler.swift in Sources */,
+				56BF2F3B2788B43A00EA9292 /* ColectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
