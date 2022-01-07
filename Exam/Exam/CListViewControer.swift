@@ -43,7 +43,8 @@ extension CListViewControler:UITableViewDataSource{
 		myCell.titleLabel.autoresizesSubviews = true
 		myCell.descriptionLabel.text = model.month.events[indexPath.row].notes
 		myCell.descriptionLabel.autoresizesSubviews = true
-		myCell.sizeToFit()
+		myCell.timeLabel.text = String( model.month.events[indexPath.row].time)
+		myCell.timeLabel.autoresizesSubviews = true
 		return myCell
 	}
 	

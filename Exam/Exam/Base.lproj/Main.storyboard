@@ -20,40 +20,57 @@
                                 <rect key="frame" x="20" y="108" width="374" height="754"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" rowHeight="150" id="CYm-3H-F7G" customClass="EventTableCell" customModule="Exam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="374" height="150"/>
+                                    <tableViewCell autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" rowHeight="169" id="CYm-3H-F7G" customClass="EventTableCell" customModule="Exam" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="374" height="169"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CYm-3H-F7G" id="It3-5N-9hu">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="150"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="169"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJA-Oo-o04">
-                                                    <rect key="frame" x="20" y="5" width="354" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJA-Oo-o04">
+                                                    <rect key="frame" x="20" y="11" width="38" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndp-VK-W26">
-                                                    <rect key="frame" x="20" y="34" width="350" height="26"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndp-VK-W26">
+                                                    <rect key="frame" x="20" y="36.5" width="334" height="26"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcA-4T-cDe">
-                                                    <rect key="frame" x="20" y="68" width="354" height="35"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcA-4T-cDe">
+                                                    <rect key="frame" x="20" y="92.5" width="334" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHl-RL-ump">
+                                                    <rect key="frame" x="291" y="11" width="63" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ndp-VK-W26" firstAttribute="trailing" secondItem="It3-5N-9hu" secondAttribute="trailingMargin" id="2uc-dh-oAD"/>
+                                                <constraint firstItem="QHl-RL-ump" firstAttribute="leading" secondItem="gJA-Oo-o04" secondAttribute="trailing" constant="200" id="3rB-pZ-gOU"/>
+                                                <constraint firstItem="gJA-Oo-o04" firstAttribute="top" secondItem="It3-5N-9hu" secondAttribute="topMargin" id="70A-S8-Dyc"/>
+                                                <constraint firstItem="zcA-4T-cDe" firstAttribute="leading" secondItem="It3-5N-9hu" secondAttribute="leadingMargin" id="Ld6-YR-EhN"/>
+                                                <constraint firstItem="zcA-4T-cDe" firstAttribute="top" secondItem="ndp-VK-W26" secondAttribute="bottom" constant="30" id="cnU-xd-zIw"/>
+                                                <constraint firstItem="ndp-VK-W26" firstAttribute="top" secondItem="gJA-Oo-o04" secondAttribute="bottom" constant="5" id="dXn-my-WYC"/>
+                                                <constraint firstItem="ndp-VK-W26" firstAttribute="leading" secondItem="It3-5N-9hu" secondAttribute="leadingMargin" id="dgB-GS-wL4"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="zcA-4T-cDe" secondAttribute="bottom" id="hse-Ul-mgh"/>
+                                                <constraint firstItem="zcA-4T-cDe" firstAttribute="top" secondItem="ndp-VK-W26" secondAttribute="bottom" constant="30" id="jPn-32-OQu"/>
+                                                <constraint firstItem="zcA-4T-cDe" firstAttribute="trailing" secondItem="It3-5N-9hu" secondAttribute="trailingMargin" id="nKO-Zo-P3j"/>
+                                                <constraint firstItem="gJA-Oo-o04" firstAttribute="leading" secondItem="It3-5N-9hu" secondAttribute="leadingMargin" id="q6w-Nr-a0v"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="DateLabel" destination="gJA-Oo-o04" id="INw-gu-QQQ"/>
                                             <outlet property="TitleLabel" destination="ndp-VK-W26" id="Gha-wD-knl"/>
                                             <outlet property="descriptionLabel" destination="zcA-4T-cDe" id="zGE-e7-KBD"/>
+                                            <outlet property="timeLabel" destination="QHl-RL-ump" id="5zp-sK-eCT"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
