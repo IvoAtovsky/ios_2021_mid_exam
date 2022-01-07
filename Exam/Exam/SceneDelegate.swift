@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Exam
 //
-//  Created by Nina Ivanova on 7.01.22.
+//  Created by Ivaylo Atovski on 7.01.22.
 //
 
 import UIKit

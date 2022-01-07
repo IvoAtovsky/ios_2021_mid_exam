@@ -13,6 +13,7 @@
 		56BF2F0A2788A04A00EA9292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BF2F082788A04A00EA9292 /* Main.storyboard */; };
 		56BF2F0C2788A04E00EA9292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BF2F0B2788A04E00EA9292 /* Assets.xcassets */; };
 		56BF2F0F2788A04E00EA9292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BF2F0D2788A04E00EA9292 /* LaunchScreen.storyboard */; };
+		56BF2F332788A3A900EA9292 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BF2F322788A3A800EA9292 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		56BF2F102788A04E00EA9292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56BF2F152788A04E00EA9292 /* ExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ExamTests.xctest; path = "/Users/ninaivanova/Desktop/Ivo A/IOS/ios_2021_mid_exam/Exam/build/Debug-iphoneos/ExamTests.xctest"; sourceTree = "<absolute>"; };
 		56BF2F202788A04E00EA9292 /* ExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ExamUITests.xctest; path = "/Users/ninaivanova/Desktop/Ivo A/IOS/ios_2021_mid_exam/Exam/build/Debug-iphoneos/ExamUITests.xctest"; sourceTree = "<absolute>"; };
+		56BF2F322788A3A800EA9292 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		56BF2F012788A04A00EA9292 /* Exam */ = {
 			isa = PBXGroup;
 			children = (
+				56BF2F322788A3A800EA9292 /* Model.swift */,
 				56BF2F022788A04A00EA9292 /* AppDelegate.swift */,
 				56BF2F042788A04A00EA9292 /* SceneDelegate.swift */,
 				56BF2F062788A04A00EA9292 /* ViewController.swift */,
@@ -224,6 +227,7 @@
 				56BF2F072788A04A00EA9292 /* ViewController.swift in Sources */,
 				56BF2F032788A04A00EA9292 /* AppDelegate.swift in Sources */,
 				56BF2F052788A04A00EA9292 /* SceneDelegate.swift in Sources */,
+				56BF2F332788A3A900EA9292 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
