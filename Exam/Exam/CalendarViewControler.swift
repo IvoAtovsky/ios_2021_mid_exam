@@ -8,12 +8,13 @@
 import UIKit
 
 class CalendarViewControler: UIViewController {
-
+	let model: Model = Model()
 	@IBOutlet weak var calendarView: UICollectionView!
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 		title = "Calendar"
+		calendarView.dataSource = self
 	}
 
 
@@ -30,7 +31,9 @@ extension CalendarViewControler : UICollectionViewDataSource{
 		if let cell = calendarView.dequeueReusableCell(withReuseIdentifier: "day", for: indexPath) as? CVewCell{
 			myCell = cell
 		}
-		
+		myCell.day.text = String(indexPath.row + 1)
+		myCell.time.text = String(model.month.events[indexPath.row].time)
+		myCell.title.text = model.month.events[indexPath.row].title
 		return myCell
 	}
 	
