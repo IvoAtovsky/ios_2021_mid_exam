@@ -103,7 +103,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPl-9A-G06">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPl-9A-G06">
                                 <rect key="frame" x="301" y="88" width="93" height="30"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Event list"/>
@@ -121,7 +121,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="day" id="ldp-D1-M4W" customClass="CVewCell" customModule="Exam" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="day" id="ldp-D1-M4W" customClass="CVewCell" customModule="Exam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="192" height="172"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HhW-ow-EiT">
@@ -172,9 +172,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="FIH-S0-YGs" firstAttribute="leading" secondItem="h7p-jU-Qcx" secondAttribute="leading" id="6Ad-Pk-sSW"/>
-                            <constraint firstItem="FIH-S0-YGs" firstAttribute="top" secondItem="dPl-9A-G06" secondAttribute="bottom" constant="30" id="O4W-cE-aSn"/>
+                            <constraint firstItem="dPl-9A-G06" firstAttribute="top" secondItem="h7p-jU-Qcx" secondAttribute="top" id="KvJ-rp-4OQ"/>
                             <constraint firstItem="h7p-jU-Qcx" firstAttribute="bottom" secondItem="FIH-S0-YGs" secondAttribute="bottom" id="QTE-up-Wj1"/>
                             <constraint firstItem="h7p-jU-Qcx" firstAttribute="trailing" secondItem="FIH-S0-YGs" secondAttribute="trailing" id="WZw-GT-c2t"/>
+                            <constraint firstItem="dPl-9A-G06" firstAttribute="leading" secondItem="h7p-jU-Qcx" secondAttribute="leading" constant="301" id="Y52-XR-QkB"/>
+                            <constraint firstItem="h7p-jU-Qcx" firstAttribute="trailing" secondItem="dPl-9A-G06" secondAttribute="trailing" constant="20" id="YkX-Xy-omL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PSI-fK-Xgf"/>

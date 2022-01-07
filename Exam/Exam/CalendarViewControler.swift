@@ -22,7 +22,7 @@ class CalendarViewControler: UIViewController {
 
 extension CalendarViewControler : UICollectionViewDataSource{
 	func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-		return 31 // dnite
+		return model.month.events.count // dnite
 	}
 	
 	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -31,7 +31,7 @@ extension CalendarViewControler : UICollectionViewDataSource{
 		if let cell = calendarView.dequeueReusableCell(withReuseIdentifier: "day", for: indexPath) as? CVewCell{
 			myCell = cell
 		}
-		myCell.day.text = String(indexPath.row + 1)
+		myCell.day.text = model.month.events[indexPath.row].date
 		myCell.time.text = String(model.month.events[indexPath.row].time)
 		myCell.title.text = model.month.events[indexPath.row].title
 		return myCell
