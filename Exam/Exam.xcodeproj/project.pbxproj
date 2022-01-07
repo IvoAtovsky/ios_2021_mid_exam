@@ -79,7 +79,6 @@
 		56BF2EF62788A04A00EA9292 = {
 			isa = PBXGroup;
 			children = (
-				56BF2F382788A8D400EA9292 /* TableCell.swift */,
 				56BF2F012788A04A00EA9292 /* Exam */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +95,7 @@
 				56BF2F102788A04E00EA9292 /* Info.plist */,
 				56BF2F342788A49B00EA9292 /* CListViewControer.swift */,
 				56BF2F362788A53300EA9292 /* CalendarViewControler.swift */,
+				56BF2F382788A8D400EA9292 /* TableCell.swift */,
 			);
 			path = Exam;
 			sourceTree = "<group>";

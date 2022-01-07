@@ -9,7 +9,7 @@ import UIKit
 
 class EventTableCell : UITableViewCell{
 	
-	@IBOutlet weak var DateLabel: UILabel!
-	@IBOutlet weak var TitleLabel: UILabel!
+	@IBOutlet weak var dateLabel: UILabel!
+	@IBOutlet weak var titleLabel: UILabel!
 	@IBOutlet weak var descriptionLabel:UILabel!
 }
